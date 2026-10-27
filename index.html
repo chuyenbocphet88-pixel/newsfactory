@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NewsFactory Terms and Privacy</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: one readable column, two documents, anchors #terms and #privacy */
+:root{--bg:#f6f7fa;--fg:#17202e;--muted:#566173;--line:#d9dee7;--accent:#2a6f97;
+--display:"Source Serif 4",Georgia,serif;--body:"Source Sans 3",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10161f;--fg:#e5e9f0;--muted:#9aa5b5;--line:#2a3442;--accent:#7cb8dc;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#10161f;--fg:#e5e9f0;--muted:#9aa5b5;--line:#2a3442;--accent:#7cb8dc;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:17px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px}
+main{max-width:42rem;margin:0 auto;display:grid;gap:40px}
+header p{color:var(--muted);margin:6px 0 0}
+h1,h2{font-family:var(--display);text-wrap:balance;line-height:1.2;margin:0}
+h1{font-size:2rem}h2{font-size:1.45rem;padding-bottom:8px;border-bottom:1px solid var(--line)}
+h3{font-size:1rem;margin:20px 0 4px}
+section p,section li{margin:6px 0}
+nav{display:flex;gap:16px;flex-wrap:wrap}
+a{color:var(--accent)}a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.meta{font-size:.9rem;color:var(--muted)}
+</style>
+</head><body>
+<main>
+<header>
+<h1>NewsFactory</h1>
+<p>A private desktop tool that turns public news headlines into a short Vietnamese audio news summary video and posts it to its owner's own TikTok and YouTube accounts.</p>
+<nav><a href="#terms">Terms of Service</a><a href="#privacy">Privacy Policy</a></nav>
+<p class="meta">Effective 27 October 2026 · Operator: the owner of the TikTok and YouTube accounts @gnuthnahtneyugn</p>
+</header>
+
+<section id="terms">
+<h2>Terms of Service</h2>
+<h3>1. What the app is</h3>
+<p>NewsFactory is a personal, non-commercial tool run on one Windows computer. It is not offered to the public and has no user sign-up. The only account it connects to is the operator's own account @gnuthnahtneyugn.</p>
+<h3>2. Use of TikTok</h3>
+<p>The app uses TikTok Login Kit to authorize the operator's account and the Content Posting API to upload the daily news video the operator's computer produced. It does not read, like, follow, comment on or message other accounts.</p>
+<h3>3. Content</h3>
+<p>Each video summarizes public news reports and links to the original sources. Videos are labeled as using an AI-generated voice. Sensitive topics (politics, conflict, crime, health claims, investment advice and similar) are filtered out before a video is made.</p>
+<h3>4. No warranty</h3>
+<p>Summaries are provided as is. Viewers should check the original sources linked in each post.</p>
+<h3>5. Changes</h3>
+<p>These terms may be updated on this page. The effective date above shows the latest version.</p>
+</section>
+
+<section id="privacy">
+<h2>Privacy Policy</h2>
+<h3>Data the app handles</h3>
+<ul>
+<li>TikTok: the operator's open ID, display name and avatar (scope user.info.basic), and access and refresh tokens used to post videos (scope video.publish).</li>
+<li>No data about viewers or any other TikTok user is collected.</li>
+</ul>
+<h3>Where it is stored</h3>
+<p>Tokens are stored only on the operator's own computer, in a folder readable only by the operator's Windows user. Nothing is sent to any server other than TikTok's and YouTube's official APIs.</p>
+<h3>Sharing</h3>
+<p>Data is never sold or shared with third parties.</p>
+<h3>Retention and deletion</h3>
+<p>Tokens are kept until the operator disconnects the app. Access can be revoked at any time in TikTok under Settings and privacy, Security, Manage app permissions; the app then deletes its stored token on the next run.</p>
+<h3>Contact</h3>
+<p>Questions: send a direct message to @gnuthnahtneyugn on TikTok.</p>
+</section>
+</main>
+</body></html>
